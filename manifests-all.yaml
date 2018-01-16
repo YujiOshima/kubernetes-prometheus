@@ -2788,7 +2788,7 @@ spec:
       volumes:
       - name: nvidialib
         hostPath:
-          path: /var/lib/nvidia-docker/volumes/nvidia_driver/375.66
+          path: /usr/lib/nvidia
       containers:
         - name: prometheus-nvidia-exporter
           image: yujioshima/nv-porter
